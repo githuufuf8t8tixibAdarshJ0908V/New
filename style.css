@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #6a1b9a, #ff9800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    color: #6a1b9a;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #6a1b9a;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ff9800;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f4f4f4;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff9800, #6a1b9a);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(106, 27, 154, 0.3);
+}
+
+h2, p {
+    margin-top: 20px;
+    font-size: 18px;
+}
